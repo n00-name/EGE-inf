@@ -15,3 +15,8 @@ for i in range(1, 1001):
         count += 1
 
 print(count)
+
+def test():
+    a = 123123658729346725834524630786270358412
+    suma = sum(map(int, str(a)))
+    print(suma)
